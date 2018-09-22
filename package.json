@@ -1,0 +1,29 @@
+{
+  "name": "BhavikFECProxy",
+  "version": "1.0.0",
+  "description": "A proxy server running all team modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightsWatchFEC/BhavikFECProxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NightsWatchFEC/BhavikFECProxy/issues"
+  },
+  "homepage": "https://github.com/NightsWatchFEC/BhavikFECProxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
